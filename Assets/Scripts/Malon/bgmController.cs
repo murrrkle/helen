@@ -35,7 +35,7 @@ public class BgmController : MonoBehaviour {
                     {
                         min.volume += gainFactor;
                         max.volume -= gainFactor;
-                    } else
+                    } else if (current == HALF)
                     {
                         min.volume += gainFactor;
                         half.volume -= gainFactor;
@@ -48,7 +48,7 @@ public class BgmController : MonoBehaviour {
                         half.volume += gainFactor;
                         max.volume -= gainFactor;
                     }
-                    else
+                    else if (current == MIN)
                     {
                         half.volume += gainFactor;
                         min.volume -= gainFactor;
@@ -60,7 +60,7 @@ public class BgmController : MonoBehaviour {
                         max.volume += gainFactor;
                         min.volume -= gainFactor;
                     }
-                    else
+                    else if (current == HALF)
                     {
                         max.volume += gainFactor;
                         half.volume -= gainFactor;
@@ -84,49 +84,32 @@ public class BgmController : MonoBehaviour {
                 dest = -1;
             }
         }
-
-        if (Input.GetButtonDown("Fire1"))
-        {
-            if (current != MIN)
-            {
-                //Debug.Log("Reached");
-                PlayMin();
-            }
-        }
-        else if (Input.GetButtonDown("Fire2"))
-        {
-            if (current != HALF)
-            {
-                //Debug.Log("Reached");
-                PlayHalf();
-            }
-        }
-
-        else if (Input.GetButtonDown("Fire3"))
-        {
-            if (current != MAX)
-            {
-                //Debug.Log("Reached");
-                PlayMax();
-            }
-        }
     }
 
     public void PlayMin()
     {
-        switching = true;
-        dest = MIN;
+        if (current != MIN)
+        {
+            switching = true;
+            dest = MIN;
+        }
     }
 
     public void PlayHalf()
     {
-        switching = true;
-        dest = HALF;
+        if (current != HALF)
+        {
+            switching = true;
+            dest = HALF;
+        }
     }
 
     public void PlayMax()
     {
-        switching = true;
-        dest = MAX;
+        if (current != MAX)
+        {
+            switching = true;
+            dest = MAX;
+        }
     }
 }

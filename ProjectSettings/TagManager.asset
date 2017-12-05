@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - malon
+  - match-fire
+  - malon-particle
+  - match-light
   layers:
   - Default
   - TransparentFX
