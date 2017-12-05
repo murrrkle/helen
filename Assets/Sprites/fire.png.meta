@@ -1,0 +1,415 @@
+fileFormatVersion: 2
+guid: d3cf69c1c2438954e98f5c750c8db94f
+timeCreated: 1512448895
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fire_0
+    21300002: fire_1
+    21300004: fire_small_0
+    21300006: fire_small_1
+    21300008: fire_4
+    21300010: fire_small_2
+    21300012: fire_6
+    21300014: fire_med_0
+    21300016: fire_8
+    21300018: fire_9
+    21300020: fire_med_1
+    21300022: fire_11
+    21300024: fire_12
+    21300026: fire_med_2
+    21300028: fire_lg_0
+    21300030: fire_15
+    21300032: fire_16
+    21300034: fire_lg_1
+    21300036: fire_18
+    21300038: fire_19
+    21300040: fire_20
+    21300042: fire_lg_2
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fire_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 375
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_1
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 392
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_small_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 313
+        width: 74
+        height: 79
+      alignment: 9
+      pivot: {x: 0.678102, y: 0.20911726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_small_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 311
+        width: 75
+        height: 82
+      alignment: 9
+      pivot: {x: 0.684739, y: 0.19503225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 379
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_small_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 310
+        width: 78
+        height: 90
+      alignment: 9
+      pivot: {x: 0.6689684, y: 0.1883467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 362
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_med_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 187
+        width: 99
+        height: 116
+      alignment: 9
+      pivot: {x: 0.6551608, y: 0.123802185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_8
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 275
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 283
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_med_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 188
+        width: 100
+        height: 120
+      alignment: 9
+      pivot: {x: 0.6605914, y: 0.13925146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_11
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 291
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_12
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 235
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_med_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 186
+        width: 95
+        height: 121
+      alignment: 9
+      pivot: {x: 0.661694, y: 0.14800319}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_lg_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 37
+        width: 125
+        height: 149
+      alignment: 9
+      pivot: {x: 0.64541745, y: 0.108600974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 148
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_16
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 158
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_lg_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 38
+        width: 125
+        height: 147
+      alignment: 9
+      pivot: {x: 0.6635946, y: 0.13934162}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_18
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 169
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_19
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 98
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_20
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 124
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_lg_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 35
+        width: 121
+        height: 151
+      alignment: 9
+      pivot: {x: 0.62831706, y: 0.12883236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
