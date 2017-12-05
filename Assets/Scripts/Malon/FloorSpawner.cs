@@ -17,14 +17,17 @@ public class FloorSpawner : MonoBehaviour {
         GameObject floor2 = Instantiate(floorPrefab);
         GameObject floor3 = Instantiate(floorPrefab);
         GameObject floor4 = Instantiate(floorPrefab);
-        floor1.transform.position = new Vector3(-7, -3, 2f);
-        floor2.transform.position = new Vector3(0.7f, -3, 2f);
-        floor3.transform.position = new Vector3(8.4f, -3, 2f);
-        floor4.transform.position = new Vector3(16.1f, -3, 2f);
+        GameObject floor5 = Instantiate(floorPrefab);
+        floor1.transform.position = new Vector3(-14, -3, 2f);
+        floor2.transform.position = new Vector3(-7, -3, 2f);
+        floor3.transform.position = new Vector3(0.7f, -3, 2f);
+        floor4.transform.position = new Vector3(8.4f, -3, 2f);
+        floor5.transform.position = new Vector3(16.1f, -3, 2f);
         floors.Add(floor1);
         floors.Add(floor2);
         floors.Add(floor3);
         floors.Add(floor4);
+        floors.Add(floor5);
 
     }
 	
@@ -38,7 +41,7 @@ public class FloorSpawner : MonoBehaviour {
                 {
                     f.transform.position -= new Vector3(0.1f, 0, 0);
 
-                    if (f.transform.position.x < -14.83f)
+                    if (f.transform.position.x < -17.83f)
                     {
                         floors.Remove(f);
                         GameObject.Destroy(f);

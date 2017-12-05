@@ -9,6 +9,7 @@ TagManager:
   - malon-particle
   - match-light
   - flame-ripple
+  - candle
   layers:
   - Default
   - TransparentFX

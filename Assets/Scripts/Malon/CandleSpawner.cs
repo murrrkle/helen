@@ -41,6 +41,7 @@ public class CandleSpawner : MonoBehaviour
             }
             if (g != null)
             {
+                g.transform.GetChild(0).gameObject.transform.GetChild(0).GetComponent<Light>().enabled = false;
                 candles.Add(g);
             }
         }
@@ -58,9 +59,10 @@ public class CandleSpawner : MonoBehaviour
                         GameObject.Destroy(c);
                         return;
                     }
-                    if (c.transform.position.x < -2.3f && !c.transform.GetChild(0).gameObject.activeSelf)
+                    if (c.transform.position.x < -2.3f && !c.transform.GetChild(0).gameObject.transform.GetChild(0).GetComponent<Light>().enabled)
                     {
-                        c.transform.GetChild(0).gameObject.SetActive(true);
+                        c.gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = true;
+                        c.gameObject.transform.GetChild(0).gameObject.transform.GetChild(0).GetComponent<Light>().enabled = true;
                         return;
                     }
                 }

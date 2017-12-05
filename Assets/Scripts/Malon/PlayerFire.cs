@@ -18,6 +18,14 @@ public class PlayerFire : MonoBehaviour {
             gc.SendMessage("MatchPlusTen");
             player.SendMessage("FireAdded");
         }
+
 	}
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        collision.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        collision.gameObject.transform.GetChild(0).GetComponent<Light>().enabled = true;
+
+    }
     
+
 }
