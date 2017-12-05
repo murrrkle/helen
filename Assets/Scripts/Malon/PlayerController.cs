@@ -7,10 +7,12 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    public List<BodyGameObject> bodies = new List<BodyGameObject>();
-    public List<Player> players = new List<Player>();
+    private List<BodyGameObject> bodies = new List<BodyGameObject>();
+    private List<Player> players = new List<Player>();
 
     public Player playerPrefab;
+
+    public GameObject playerFirePrefab;
 
     void Start()
     {
@@ -46,7 +48,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
+    public void SpawnFire()
+    {
+        if (bodies.Count != 0)
+        {
+            int body = UnityEngine.Random.Range(0, bodies.Count);
+            players[body].SpawnFire();
+        }
+    }
 
 
     void Kinect_BodyFound(object args)

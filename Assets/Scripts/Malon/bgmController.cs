@@ -71,7 +71,7 @@ public class BgmController : MonoBehaviour {
                     Debug.Log("Something went wrong...");
                     break;
             }
-
+            //Debug.Log(current);
             if ((min.volume == 0 || min.volume == 1) && (half.volume == 0 || half.volume == 1) && (max.volume == 0 || max.volume == 1))
             {
                 switching = false;
@@ -90,6 +90,7 @@ public class BgmController : MonoBehaviour {
     {
         if (current != MIN)
         {
+            //Debug.Log("PlayMin");
             switching = true;
             dest = MIN;
         }
@@ -99,6 +100,7 @@ public class BgmController : MonoBehaviour {
     {
         if (current != HALF)
         {
+           // Debug.Log("PlayHalf");
             switching = true;
             dest = HALF;
         }
@@ -108,6 +110,7 @@ public class BgmController : MonoBehaviour {
     {
         if (current != MAX)
         {
+           // Debug.Log("PlayMax");
             switching = true;
             dest = MAX;
         }

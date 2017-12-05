@@ -89,3 +89,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 0
+  playerFirePrefab: {fileID: 114925078677498664, guid: 584d9dca5792001498b23645fce3bf0c,
+    type: 2}

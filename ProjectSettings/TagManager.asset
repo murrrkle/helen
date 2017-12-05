@@ -8,6 +8,7 @@ TagManager:
   - match-fire
   - malon-particle
   - match-light
+  - flame-ripple
   layers:
   - Default
   - TransparentFX
